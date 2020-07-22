@@ -28,33 +28,41 @@
 // ----------------------------------------
 // OBJECTS
 // have to have key and value
-const employee = { 
+// const employee = { 
 
-    firstName: 'Autumn',
-    lastName: 'Fotopoulos',
-    role: 'student',
-    accountNumber : '1-8735960',
-    isManager : false,
-    titles: ['mom', 'badass'],
-    accolade: {
-        title: 'student of the year',
-        dateEarned: '1/20/2020',
-        expires: '12/21/2020',
-        isCool : true
+//     firstName: 'Autumn',
+//     lastName: 'Fotopoulos',
+//     role: 'student',
+//     accountNumber : '1-8735960',
+//     isManager : false,
+//     titles: ['mom', 'badass'],
+//     accolade: {
+//         title: 'student of the year',
+//         dateEarned: '1/20/2020',
+//         expires: '12/21/2020',
+//         isCool : true
+//     }
+
+// }
+
+// // console.log(employee.firstName)
+// // const keyToCheck= 'accolade';
+
+// // console.log(employee[keyToCheck])
+// // console.log(employee.accolade.isCool)
+// // console.log(employee[keyToCheck].isCool)
+
+
+// // make function that says if employee name starts with A
+
+// // 
+
+const colors = ['red', 'orange','blue','yellow','green']
+
+const colorLoop =() =>{
+    let domString = '';
+    for (let i=0; i< colors.length; i++) {
+        domString += '<h1> ${colors[i]}</h1>'
     }
-
+    console.log(domString)
 }
-
-// console.log(employee.firstName)
-// const keyToCheck= 'accolade';
-
-// console.log(employee[keyToCheck])
-// console.log(employee.accolade.isCool)
-// console.log(employee[keyToCheck].isCool)
-
-
-// make function that says if employee name starts with A
-
-// 
-
-
