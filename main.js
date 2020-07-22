@@ -53,16 +53,18 @@
 // // console.log(employee[keyToCheck].isCool)
 
 
-// // make function that says if employee name starts with A
+// // // make function that says if employee name starts with A
 
-// // 
+// // // 
 
-const colors = ['red', 'orange','blue','yellow','green']
+// const colors = ['red', 'orange','blue','yellow','green']
 
-const colorLoop =() =>{
-    let domString = '';
-    for (let i=0; i< colors.length; i++) {
-        domString += '<h1> ${colors[i]}</h1>'
-    }
-    console.log(domString)
-}
+// const colorLoop =() =>{
+//     let domString = '';
+//     for (let i=0; i< colors.length; i++) {
+//         domString += '<h1> ${colors[i]}</h1>'
+//     }
+//     console.log(domString)
+// }
+
+// colorLoop()
