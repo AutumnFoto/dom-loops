@@ -1,3 +1,21 @@
 body {
     background-color: bisque;
 }
+
+.dino-barn {
+    display: flex;
+}
+
+.dinosaur {
+    border: 2px solid paleturquoise;
+     width: 200px;
+}
+
+.assignment{
+    border: 2px solid cornflowerblue;
+    background-color: lightblue;
+    padding: 15px;
+    width:300px;
+
+
+}
